@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+	
+	#canvas{
+		float:left;
+		outline:none;
+		cursor:pointer;
+		margin-bottom:50px;
+	}
+		
+	.detailsBox{
+		border-top: 1px solid black;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+		
+	#detailsWrapper{
+		background-color:#FFF;
+		padding:10px;	
+		position:absolute;
+		font-size:11px;
+		text-align:left;
+		max-width: 200px;
+		box-shadow: 0px 0px 5px #000;
+		border: 1px solid black;
+	}
+	
+	#bioImage{
+		float:left;
+		text-align:center;
+		vertical-align:middle;
+		margin-right: 5px;
+	}
+	
+	#closeDetails{
+		padding:2px;
+		float:right;
+		font-size:12px;
+		background-color:#FFF;
+		cursor:pointer;
+	}
+	
+	#loading{
+		background-color: rgba(0, 0, 0, 0.6);
+		position:absolute;
+		left: 0;
+		top: 1px;
+		min-width: 100%;
+		width:auto;
+		min-height: 100%;
+		height:auto !important;
+		padding-top:100px;
+		text-align:center;
+		
+	}	
+	
+.nav-pills::after{
+	display:none;
+}
